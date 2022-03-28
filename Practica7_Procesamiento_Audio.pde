@@ -57,13 +57,13 @@ void setup(){
   justClicked=false;
   pointerDisplay=0;
   green=createShape(RECT, width/2-150, height/2-130, 120,120,28);
-  green.setFill(color(0, 180, 0));
+  green.setFill(color(110, 170, 94));
   red=createShape(RECT, width/2+30, height/2-130, 120,120,28);
-  red.setFill(color(180, 0, 0));
+  red.setFill(color(190,34,34));
   yellow=createShape(RECT, width/2-150, height/2+15, 120,120,28);
   yellow.setFill(color(200, 200, 0));
   blue=createShape(RECT, width/2+30, height/2+15, 120,120,28);
-  blue.setFill(color(0, 0, 180));
+  blue.setFill(color(65,105,225));
   zoneClicked=0;
   noise = new PinkNoise(this);
   redSquare = new SqrOsc(this);
@@ -87,34 +87,34 @@ void draw(){
   if(mode==MODE_ENTER){
      textSize(25);
      text("Are you able to follow the sounds?", width/2-150, 110);
-     textFont(font2,17);
+     textFont(font2,20);
      text("Press ESPACE to start game", width/2-100, height-120);
      text("Press ESC to get back to menu", width/2-100, height-100);
   }
     if(mode==MODE_GAME || mode== MODE_DISPLAY){
       if(beepGreen){
-        green.setFill(color(0, 255, 0));
+        green.setFill(color(0,255,0));
         if (millis() - time > BEEP_DURATION)beepGreen = false;
       }else{
-        green.setFill(color(0, 180, 0));
+        green.setFill(color(110, 170, 94));
       }
       if(beepRed){
         red.setFill(color(255, 0, 0));
         if (millis() - time > BEEP_DURATION)beepRed = false;
       }else{
-        red.setFill(color(180, 0, 0));
+        red.setFill(color(190,34,34));
       }
       if(beepYellow){
-        yellow.setFill(color(255, 255, 0));
+        yellow.setFill(color(255, 255, 51));
         if (millis() - time > BEEP_DURATION)beepYellow = false;
       }else{
         yellow.setFill(color(200, 200, 0));
       }
       if(beepBlue){
-        blue.setFill(color(0, 0, 255));
+        blue.setFill(color(0,191,255));
         if (millis() - time > BEEP_DURATION)beepBlue = false;
       }else{
-        blue.setFill(color(0, 0, 180));
+        blue.setFill(color(65,105,225));
       }
   }
   
@@ -154,8 +154,8 @@ void draw(){
       lostSound=true;
     }
     textFont(font, 25);
-    text("You lost with score: " +score+"!",  width/2-95, 110);
-    textFont(font2, 17);
+    text("You lost with score: " +score+"!",  width/2-110, 130);
+    textFont(font2, 20);
     text("Want to retry? Press R",width/2-70, height-150);
     if(keyPressed&& key=='r'){
       reset();
@@ -177,10 +177,10 @@ int getRandomZone(){
 }
 
 void reset(){
-  blue.setFill(color(0, 0, 180));
+  blue.setFill(color(65,105,225));
   yellow.setFill(color(200, 200, 0));
-  red.setFill(color(180, 0, 0));
-  green.setFill(color(0, 180, 0));
+  red.setFill(color(190,34,34));
+  green.setFill(color(110, 170, 94));
   pointerDisplay=0;
   clickCount=0;
   beepsGame.clear();
