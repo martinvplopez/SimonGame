@@ -11,7 +11,12 @@ ___
 ##### Ejecutar programa, para empezar a jugar pulsar *[ESPACIO]*, sonará una zona aleatoria y se alumbrará, el jugador deberá copiar dicho patrón y si es correcto ganará un punto. Cada vez que realice una secuencia completa correctamente se añadirá otra zona por lo que la dificultad aumentará y será todo un reto.
 ##### Si el jugador se equivoca sonará un ruido durante unos segundos y se le posibilitará jugar de nuevo para superar la puntuación.
 
-![GIF Principal]()
+
+
+https://user-images.githubusercontent.com/88589893/160441819-9f5f77ce-e5c1-4ae6-889a-51aee145655d.mp4
+
+
+
 
 #### Detalles implementación
 - ##### **Información**: Textos de información de controles básicos en el menú de la forma más simple y minimalista, el recorrido del juego es a base de sonidos, teniendo como información la puntuación y el ruido para dejar claro que se ha perdido. Basado en el juego original y simplemente jugar siguiendo los sonidos.
