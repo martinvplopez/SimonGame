@@ -25,4 +25,4 @@ ___
 - [Documentación asignatura](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P4/README.md)
 - [Imágenes de Google](https://www.google.com/imghp?hl=EN)
 - [Documentación Processing](https://processing.org/reference)
-- [Simon Game Hasbro](https://shop.hasbro.com/en-us/product/simon-game:6B0A06E3-5056-9047-F532-6A891FAEBA15)
+- [Simon Game](https://shop.hasbro.com/en-us/product/simon-game:6B0A06E3-5056-9047-F532-6A891FAEBA15)
