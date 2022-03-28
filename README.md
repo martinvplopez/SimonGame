@@ -22,6 +22,7 @@ https://user-images.githubusercontent.com/88589893/160441819-9f5f77ce-e5c1-4ae6-
 - ##### **Información**: Textos de información de controles básicos en el menú de la forma más simple y minimalista, el recorrido del juego es a base de sonidos, teniendo como información la puntuación y el ruido para dejar claro que se ha perdido. Basado en el juego original y simplemente jugar siguiendo los sonidos.
 - ##### **Color**: Colores de las zonas de forma que se reconozcan los colores puros pero mezclados para bajar la intensidad y que a la hora de resaltar exista constraste y facilidad de reconocimiento.
 - ##### **Controles**: *ESPACIO* para empezar a jugar, posibilidad de salir al menú con *ESCAPE*, si se pierde la partida se añade la herramienta de control de volver a empezar con la *R*. Se ha recordado las mismas unicamente en las fases concretas para dar control al usuario y seguir con el minimalismo, ventaja de usar teclas estándar.
+- ##### **Interactividad**: Al ser un juego con un comportamiento aleatorio y que no tiene un final, creciente, es muy cambiante y acaba siendo un desafío para el jugador, estos elementos son determinantes en esta interfaz.
 
 
 #### Referencias
