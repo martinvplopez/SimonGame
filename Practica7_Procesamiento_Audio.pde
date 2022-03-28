@@ -204,6 +204,7 @@ void beep(int zone){
   switch(zone){
     case 1: // Green zone
       greenSaw.play();
+      greenSaw.freq(120);
       env.play(greenSaw, attackTime, sustainTime, sustainLevel, releaseTime);
       time=millis();
       beepGreen=true;
@@ -211,6 +212,7 @@ void beep(int zone){
     case 2: // Red zone
      redSquare.play();
      redSquare.amp(0.5);
+     redSquare.freq(200);
      env.play(redSquare, attackTime, sustainTime, sustainLevel, releaseTime);
      time=millis();
      beepRed=true;
