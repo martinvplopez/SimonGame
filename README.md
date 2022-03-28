@@ -11,7 +11,7 @@ ___
 ##### Ejecutar programa y apreciar animación donde existen satélites y planetas que orbitan y rotan. En vista general será posible modificar el modo de visibilidad: ver sólo planetas, sólo satélites o todos los cuerpos (por defecto).
 ##### Entrar en modo "nave" *[ESPACIO]* para navegar y apreciar otras perspectivas del entorno.
 
-![GIF Principal](https://github.com/martinvplopez/Galaxia-Caos-Ship/blob/main/images/presentationGIF.gif)
+![GIF Principal]()
 
 #### Detalles implementación
 #### Más allá de las herramientas de visibilidad de la práctica anterior (ver sólo satélites o planetas) se ha incluido una nave como cámara libre dirigida por el usuario.
